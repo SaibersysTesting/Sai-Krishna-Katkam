@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApplication1
+namespace Console_asks_you
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Console.WriteLine("Please enter Your First Name");
+            string Firstname = Console.ReadLine();
+            Console.WriteLine("Please enter Your Last Name");
+            string Lastname = Console.ReadLine();
+            Console.WriteLine("Helllllooooo {0}, {1}", Firstname, Lastname);
+
         }
     }
 }
